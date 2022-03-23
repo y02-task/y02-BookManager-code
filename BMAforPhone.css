@@ -1,0 +1,156 @@
+header{
+  position: fixed;
+  top:0;
+  left:0;
+  background: #00552e;
+  padding-bottom: 10px;
+}
+.title{/*ヘッダー用*/
+    color: white;
+    text-shadow:
+    2px 2px #97a791,
+    -2px 2px #97a791,
+    -2px -2px #97a791,
+    2px -2px #97a791,
+    2px 0px #97a791,
+    0px 2px #97a791,
+    -2px 0px #97a791,
+    0px -2px #97a791;
+}
+.txt{/*メインテキストボックス*/
+    border: 1px solid #999;
+    background: #f2f2f2;
+    font-size: 120%;
+    width: 80%;
+}
+.txt2{/*サブテキストボックス*/
+    border: 1px solid #999;
+    box-sizing: border-box;
+    background: #f2f2f2;
+    font-size: 120%;
+    width: 80%;
+}
+.txt3{/*検索ボックス*/
+    border: 1px solid #999;
+    box-sizing: border-box;
+    background: #f2f2f2;
+    font-size: 150%;
+    width: 100%;
+}
+.nonetext{/*配列の要素数受け渡し用の値を保存するボックスを透明にする*/
+    display: inline-block;
+    width: 1%;
+    border: 1px solid transparent;
+    background: transparent;
+    margin: 0.5em 0;
+    color: transparent;
+}
+.button{/*ボタン用*/
+    background-color:#d3d3d3;
+    font-size: 120%;
+    padding: 5px;
+    width: 23%;
+}
+.button2{/*ボタン用*/
+    background-color:#d3d3d3;
+    font-size: 120%;
+    padding: 5px;
+}
+table thead tr th {/*ヘッダーの色*/
+	color: #fff;
+	background: #165e83;
+}
+table th:nth-child(1) {/*以下各ヘッダーのサイズ*/
+	width: 45%;
+}
+table th:nth-child(2) {
+	width: 17.5%;
+}
+table th:nth-child(3) {
+	width: 17.5%;
+}
+table th:nth-child(4) {
+	width: 5%;
+}
+table th:nth-child(5) {
+	width: 5%;
+}
+table th:nth-child(6) {/*以上各ヘッダーのサイズ*/
+	width: 10%;
+}
+table td {/*テーブルの色を交互に*/
+	background: #c1e4e9;
+}
+table tr:nth-child(odd) td {/*テーブルの色を交互に*/
+	background: #fff;
+}
+.tableHButton{/*テーブル上でボタンをセルのように配置する*/
+    display: block;
+    background: transparent;
+    border: 2px solid transparent;
+    padding: 5px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    color: #ffffff;
+    font-size: 120%;
+    text-decoration: none;
+    font-weight: bold;
+}
+.tableButton{/*テーブル上でボタンをセルのように配置する*/
+    display: block;
+    background: transparent;
+    border: 2px solid transparent;
+    padding: 5px;
+    text-align: center;
+    color: #000000;
+    font-size: 120%;
+    text-decoration: none;
+    font-weight: bold;
+}
+/*以下コピペ*/
+#page_top{
+  width: 100px;
+  height: 60px;
+  position: fixed;
+  right: 0;
+  bottom: 55px;
+  background: #ff0000;
+  opacity: 0.4;
+  border-radius: 15px;
+}
+#page_top a{
+  position: relative;
+  display: block;
+  width: 100px;
+  height: 60px;
+  text-decoration: none;
+}
+#page_top a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f102';
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: -25px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+#page_top a::after{
+  content: 'PAGE TOP';
+  font-size: 13px;
+  color: #fff;
+  position: absolute;
+  top: 30px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
