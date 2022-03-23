@@ -3,6 +3,8 @@ $word = '漢字を読み仮名に変換';
 var_dump($word);
 var_dump(getRuby_Yahoo($word));
 
+//漢字⇒よみがな変換　YahooAPIを使用
+//https://www.pahoo.org/e-soul/webtech/php06/php06-39-01.shtm
 function getRuby_Yahoo($sentence) {
     $url = 'https://jlp.yahooapis.jp/FuriganaService/V2/furigana';
     $post = array(
